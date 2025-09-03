@@ -19,9 +19,9 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     
     // CORS check
     const origin = request.headers.get('Origin');
-    const allowedDomains = env.ALLOWED_ORIGINS.split(',');
+    const allowedDomains = env.ALLOWED_ORIGINS.split(',').map(domain => domain.trim().toLowerCase());
     
-    if (origin && !allowedDomains.includes(origin)) {
+    if (origin && !allowedDomains.some(domain => origin.toLowerCase().includes(domain))) {
       return new Response('Forbidden', { status: 403 });
     }
 
