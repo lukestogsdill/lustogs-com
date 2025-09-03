@@ -39,7 +39,6 @@ The contact form uses a Cloudflare Pages Function (`functions/contact.ts`) to ha
 
 ## Tech Stack
 
-- HTML/CSS/JavaScript
-- TypeScript
+- HTML/CSS/TypeScript
 - Cloudflare Pages Functions
 - Resend Email API
