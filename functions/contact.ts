@@ -80,7 +80,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'contact@yourdomain.com',
+        from: 'onboarding@resend.dev',
         to: env.TO_EMAIL,
         subject: `Contact Form: ${contactData.name}`,
         html: `
