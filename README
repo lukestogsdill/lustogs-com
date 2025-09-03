@@ -1,1 +1,45 @@
-This is a portfoliosite for Luke Stogsdillh
+# Luke Stogsdill Portfolio
+
+A modern portfolio website for Luke Stogsdill, featuring a contact form powered by Cloudflare Pages Functions and Resend email service.
+
+## Features
+
+- Modern, responsive portfolio design
+- Contact form with server-side validation
+- Email delivery via Resend API
+- Cloudflare Pages Functions backend
+- TypeScript support
+
+## Installation
+
+```bash
+pnpm install
+```
+
+## Setup
+
+1. Create a `.env` file with your environment variables:
+   ```
+   RESEND_API_KEY=your_resend_api_key
+   TO_EMAIL=your@email.com
+   ALLOWED_ORIGINS=https://yourdomain.com
+   ```
+
+2. Deploy to Cloudflare Pages and configure environment variables in the dashboard
+
+## Contact Form
+
+The contact form uses a Cloudflare Pages Function (`functions/contact.ts`) to handle form submissions securely. It includes:
+
+- Form validation and sanitization
+- CORS protection
+- Rate limiting via Cloudflare
+- Email delivery via Resend
+- Connection metadata logging
+
+## Tech Stack
+
+- HTML/CSS/JavaScript
+- TypeScript
+- Cloudflare Pages Functions
+- Resend Email API
