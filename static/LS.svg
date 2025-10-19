@@ -2,33 +2,60 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="11.144741mm"
-   height="11.144742mm"
-   viewBox="0 0 11.144741 11.144742"
+   width="61.23724mm"
+   height="61.237244mm"
+   viewBox="0 0 61.23724 61.237244"
    version="1.1"
    id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1" />
+     id="defs1">
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#7c5cff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#00d4ff;stop-opacity:1;"
+         offset="0.5"
+         id="stop3" />
+      <stop
+         style="stop-color:#ff7a90;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="127.8604"
+       y1="51.862545"
+       x2="163.21574"
+       y2="87.217888"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
   <g
      id="layer1"
-     transform="translate(-55.981384,-126.39296)">
-    <path
-       style="fill:#000000;stroke-width:0.264583"
-       id="path2"
-       d="m 55.981383,131.96501 a 5.5723701,5.5723701 0 0 1 5.572605,-5.57206 5.5723701,5.5723701 0 0 1 5.572135,5.57253 5.5723701,5.5723701 0 0 1 -5.572465,5.57221 5.5723701,5.5723701 0 0 1 -5.572275,-5.5724" />
+     transform="translate(-91.962026,-74.220091)">
+    <rect
+       style="fill:url(#linearGradient2);fill-rule:evenodd;stroke-width:0.264583"
+       id="rect1"
+       width="50"
+       height="50"
+       x="120.53807"
+       y="44.540215"
+       transform="rotate(15)" />
     <text
        xml:space="preserve"
-       style="font-size:3.175px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;stroke-width:0.264583"
-       x="-16.773766"
-       y="147.62675"
-       id="text1"
-       transform="rotate(-30)"><tspan
-         id="tspan1"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:Sans;-inkscape-font-specification:'Sans Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.264583"
-         x="-16.773766"
-         y="147.62675"
-         dx="0">LS</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.3821px;font-family:'Sans ser';-inkscape-font-specification:'Sans ser';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1.47684"
+       x="95.973396"
+       y="120.10889"
+       id="text3"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#ffffff;fill-opacity:1;stroke-width:1.47684"
+         x="95.973396"
+         y="120.10889">LS</tspan></text>
   </g>
 </svg>
