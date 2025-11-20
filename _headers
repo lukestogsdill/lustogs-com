@@ -21,8 +21,7 @@
 # Cache root page for 1 day
 /
   Cache-Control: public, max-age=86400
-
-# Cache SEO files for 1 week
+  
 /robots.txt
   Cache-Control: public, max-age=604800
 

@@ -290,6 +290,23 @@ body {
   font-size: 13px;
 }
 
+.skills-categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.skill-category h3 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.skill-category .chips {
+  margin-bottom: 0;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -420,6 +437,11 @@ body {
 
   .tagline {
     font-size: 16px;
+  }
+
+  .skills-categories {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 }
 
